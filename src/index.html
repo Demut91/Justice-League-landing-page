@@ -408,35 +408,35 @@ button:focus {
 }
 
 .genres-item__romance {
-  background: linear-gradient(109.31deg, #FD093F 2.4%, #F383F1 100%);
+  background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
 }
 
 .genres-item__drama {
-  background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+  background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
 }
 
 .genres-item__historical {
-  background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+  background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
 }
 
 .genres-item__action {
-  background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+  background: linear-gradient(109.31deg, #fd093f 2.4%, #fb1378 2.41%, #fccb1a 100%);
 }
 
 .genres-item__scifi {
-  background: linear-gradient(109.31deg, #FF6472 2.4%, #FDA75D 100%);
+  background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
 }
 
 .genres-item__horror {
-  background: linear-gradient(110.16deg, #13547A 2.37%, #80D0C7 96.77%);
+  background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
 }
 
 .genres-item__comedy {
-  background: linear-gradient(109.93deg, #FFF77B 2.37%, #FFBF42 50%);
+  background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
 }
 
 .genres-item__documentary {
-  background: linear-gradient(109.31deg, #1FA2FF 2.4%, #1FA2FF 2.41%, #1F535C 97.46%);
+  background: linear-gradient(109.31deg, #1fa2ff 2.4%, #1fa2ff 2.41%, #1f535c 97.46%);
 }
 
 .genres-icon {
@@ -454,5 +454,141 @@ button:focus {
   font-weight: 700;
   margin: 0.2rem 0 0 0;
 }
+
+.actors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-top: 2.1rem;
+}
+
+.actors-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14%;
+          flex: 0 0 14%;
+}
+
+.actors__link {
+  overflow: hidden;
+  position: relative;
+  width: 19rem;
+  height: 19rem;
+  border-radius: 100%;
+  display: block;
+}
+
+.actors__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 19rem;
+  height: 19rem;
+}
+
+.marketing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-top: 2.1rem;
+}
+
+.marketing-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  border-radius: 2rem;
+}
+
+.marketing__link {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 34.1rem;
+  display: block;
+}
+
+.marketing__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.offer {
+  max-width: 122.4rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(/src/images/offerBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7.2rem 14.7rem 7.2rem 5.7rem;
+  border-radius: 2rem;
+  margin-top: 7rem;
+  margin-bottom: 12.1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.offer__title {
+  font-size: 6.4rem;
+  font-weight: 700;
+  max-width: 80rem;
+  margin: 0;
+  line-height: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 2rem;
+}
+
+.offer__btn {
+  border: none;
+  border-radius: 10rem;
+  padding: 1.5rem 3rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  background: #326cff;
+  background: linear-gradient(151deg, #326cff 0%, #26fff2 100%);
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+          box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+  -webkit-transition: 0.2s ease box-shadow;
+  transition: 0.2s ease box-shadow;
+}
+
+.offer__btn:hover {
+  -webkit-box-shadow: 0px 0px 0px rgba(50, 108, 255, 0.3);
+          box-shadow: 0px 0px 0px rgba(50, 108, 255, 0.3);
+}
 /*# sourceMappingURL=style.css.map *//*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
-/*# sourceMappingURL=normalize.min.css.map */</style></head><body> <header> <div class="header"> <a href="#"><img src="images/logo.svg" alt="Logo"/></a><nav><ul class="nav"> <li class="nav-item"> <a class="nav-link active" href="">Home  </a></li><li class="nav-item"> <a class="nav-link" href="">TV Shows  </a></li><li class="nav-item"> <a class="nav-link" href="">Movies  </a></li><li class="nav-item"> <a class="nav-link" href="">Series  </a></li></ul></nav><ul class="control"><li class="control-item"> <button class="control-btn control-btn__search"></button></li><li class="control-item"> <button class="control-btn control-btn__notice"></button></li><li class="control-item"> <button class="control-btn control-btn__account"></button></li></ul></div></header><section class="section-banner"><img class="section-banner__image" src="/src/images/mainbanner.png" alt="Banner"/><div class="container"><div class="banner"> <h1 class="banner__title">Zack Snyder's Justice League</h1><div class="banner-info"> <span class="banner-info__year">2021</span><span class="banner-info__age">18+</span><span class="banner-info__time">4h 2min</span><span class="banner-info__rating">8.8</span></div><p class="banner__text">Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.</p><div class="banner-control"><button class="banner-control__btn banner-control__btn-main">Watch</button><button class="banner-control__btn banner-control__btn-more">More information</button></div></div></div></section><section class="section"><div class="container"><h2 class="section__h2"><a class="section__h2-link" href="#">Trending TV Shows</a></h2><div class="movies"><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster01.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster02.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster03.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster04.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster05.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster06.png" alt="poster"/></a></div></div></div></section><section class="section"><div class="container"><h2 class="section__h2"><a class="section__h2-link" href="#">Trending Movies</a></h2><div class="movies"><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster07.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster08.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster09.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster10.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster11.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster12.png" alt="poster"/></a></div></div><button class="seemore-btn">See more </button></div></section><section class="section"><div class="container"><h2 class="section__h2"><a class="section__h2-link" href="#">Popular Genres</a></h2><div class="genres"> <div class="genres-item genres-item__romance"> <div class="genres-icon"><img src="/src/images/genres-icons/romance.svg" alt="genres-icon"/></div><h3 class="genres__title">Romance</h3></div><div class="genres-item genres-item__drama"> <div class="genres-icon"><img src="/src/images/genres-icons/drama.svg" alt="genres-icon"/></div><h3 class="genres__title">Drama</h3></div><div class="genres-item genres-item__historical"> <div class="genres-icon"><img src="/src/images/genres-icons/historical.svg" alt="genres-icon"/></div><h3 class="genres__title">Historical</h3></div><div class="genres-item genres-item__action"> <div class="genres-icon"><img src="/src/images/genres-icons/action.svg" alt="genres-icon"/></div><h3 class="genres__title">Action</h3></div><div class="genres-item genres-item__scifi"> <div class="genres-icon"><img src="/src/images/genres-icons/scifi.svg" alt="genres-icon"/></div><h3 class="genres__title">Sci-fi</h3></div><div class="genres-item genres-item__horror"> <div class="genres-icon"><img src="/src/images/genres-icons/horror.svg" alt="genres-icon"/></div><h3 class="genres__title">Horror</h3></div><div class="genres-item genres-item__comedy"> <div class="genres-icon"><img src="/src/images/genres-icons/comedy.svg" alt="genres-icon"/></div><h3 class="genres__title">Comedy</h3></div><div class="genres-item genres-item__documentary"> <div class="genres-icon"><img src="/src/images/genres-icons/documentary.svg" alt="genres-icon"/></div><h3 class="genres__title">Documentary</h3></div></div></div></section></body></html>
+/*# sourceMappingURL=normalize.min.css.map */</style></head><body> <header> <div class="header"> <a href="#"><img src="images/logo.svg" alt="Logo"/></a><nav><ul class="nav"> <li class="nav-item"> <a class="nav-link active" href="">Home  </a></li><li class="nav-item"> <a class="nav-link" href="">TV Shows  </a></li><li class="nav-item"> <a class="nav-link" href="">Movies  </a></li><li class="nav-item"> <a class="nav-link" href="">Series  </a></li></ul></nav><ul class="control"><li class="control-item"> <button class="control-btn control-btn__search"></button></li><li class="control-item"> <button class="control-btn control-btn__notice"></button></li><li class="control-item"> <button class="control-btn control-btn__account"></button></li></ul></div></header><section class="section-banner"><img class="section-banner__image" src="/src/images/mainbanner.png" alt="Banner"/><div class="container"><div class="banner"> <h1 class="banner__title">Zack Snyder's Justice League</h1><div class="banner-info"> <span class="banner-info__year">2021</span><span class="banner-info__age">18+</span><span class="banner-info__time">4h 2min</span><span class="banner-info__rating">8.8</span></div><p class="banner__text">Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.</p><div class="banner-control"><button class="banner-control__btn banner-control__btn-main">Watch</button><button class="banner-control__btn banner-control__btn-more">More information</button></div></div></div></section><section class="section"><div class="container"><h2 class="section__h2"><a class="section__h2-link" href="#">Trending TV Shows</a></h2><div class="movies"><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster01.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster02.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster03.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster04.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster05.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster06.png" alt="poster"/></a></div></div></div></section><section class="section"><div class="container"><h2 class="section__h2"><a class="section__h2-link" href="#">Trending Movies</a></h2><div class="movies"><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster07.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster08.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster09.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster10.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster11.png" alt="poster"/></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="../src/images/posters/poster12.png" alt="poster"/></a></div></div><button class="seemore-btn">See more </button></div></section><section class="section"><div class="container"><h2 class="section__h2"><a class="section__h2-link" href="#">Popular Genres</a></h2><div class="genres"> <div class="genres-item genres-item__romance"> <div class="genres-icon"><img src="/src/images/genres-icons/romance.svg" alt="genres-icon"/></div><h3 class="genres__title">Romance</h3></div><div class="genres-item genres-item__drama"> <div class="genres-icon"><img src="/src/images/genres-icons/drama.svg" alt="genres-icon"/></div><h3 class="genres__title">Drama</h3></div><div class="genres-item genres-item__historical"> <div class="genres-icon"><img src="/src/images/genres-icons/historical.svg" alt="genres-icon"/></div><h3 class="genres__title">Historical</h3></div><div class="genres-item genres-item__action"> <div class="genres-icon"><img src="/src/images/genres-icons/action.svg" alt="genres-icon"/></div><h3 class="genres__title">Action</h3></div><div class="genres-item genres-item__scifi"> <div class="genres-icon"><img src="/src/images/genres-icons/scifi.svg" alt="genres-icon"/></div><h3 class="genres__title">Sci-fi</h3></div><div class="genres-item genres-item__horror"> <div class="genres-icon"><img src="/src/images/genres-icons/horror.svg" alt="genres-icon"/></div><h3 class="genres__title">Horror</h3></div><div class="genres-item genres-item__comedy"> <div class="genres-icon"><img src="/src/images/genres-icons/comedy.svg" alt="genres-icon"/></div><h3 class="genres__title">Comedy</h3></div><div class="genres-item genres-item__documentary"> <div class="genres-icon"><img src="/src/images/genres-icons/documentary.svg" alt="genres-icon"/></div><h3 class="genres__title">Documentary</h3></div></div></div></section><section class="section"><div class="container"><h2 class="section__h2"><a class="section__h2-link" href="#">Popular Actors &amp; Directors</a></h2><div class="actors"> <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="../src/images/actors/1.png" alt="actor-photo"/></a><h3 class="actors-title">Samantha Bowen</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="../src/images/actors/2.png" alt="actor-photo"/></a><h3 class="actors-title">Rhys Birch</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="../src/images/actors/3.png" alt="actor-photo"/></a><h3 class="actors-title">James Holloway </h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="../src/images/actors/4.png" alt="actor-photo"/></a><h3 class="actors-title">Joshua Walton</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="../src/images/actors/5.png" alt="actor-photo"/></a><h3 class="actors-title">Patrick Elliott</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="../src/images/actors/6.png" alt="actor-photo"/></a><h3 class="actors-title">Morgan O'Neill</h3></div></div></div></section><section class="section"><div class="container"><div class="marketing"> <div class="marketing-item"> <a class="marketing__link" href="#"><img class="marketing__img" src="../src/images/marketingBanner.png" alt="banner"/></a></div><div class="marketing-item"> <a class="marketing__link" href="#"><img class="marketing__img" src="../src/images/marketingBanner2.png" alt="banner"/></a></div></div></div></section><section class="section"><div class="container"><div class="offer"><h2 class="offer__title">Are You New Here ? Don’t&nbsp;wait, Register Now.           </h2><button class="offer__btn">Register Now</button></div></div></section></body></html>
