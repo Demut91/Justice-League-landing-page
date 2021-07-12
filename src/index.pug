@@ -11,6 +11,7 @@ html(lang="en")
     include modules/header
     
     section.section-banner
+      img(src="/src/images/mainbanner.png", alt="Banner").section-banner__image
       .container
         .banner 
           h1.banner__title Zack Snyder's Justice League
@@ -31,6 +32,83 @@ html(lang="en")
           .movies-item
             a(href="#").movies__link
               img(src="../src/images/posters/poster01.png", alt="poster").movies__img
-    
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster02.png", alt="poster").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster03.png", alt="poster").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster04.png", alt="poster").movies__img     
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster05.png", alt="poster").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster06.png", alt="poster").movies__img
+
+    section.section
+      .container
+        h2.section__h2
+          a(href="#").section__h2-link Trending Movies
+        .movies
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster07.png", alt="poster").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster08.png", alt="poster").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster09.png", alt="poster").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster10.png", alt="poster").movies__img     
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster11.png", alt="poster").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="../src/images/posters/poster12.png", alt="poster").movies__img 
+        button.seemore-btn See more 
+
+    section.section
+      .container
+        h2.section__h2
+          a(href="#").section__h2-link Popular Genres
+        .genres  
+          .genres-item.genres-item__romance 
+            .genres-icon
+             img(src="/src/images/genres-icons/romance.svg", alt="genres-icon")    
+            h3.genres__title Romance
+          .genres-item.genres-item__drama 
+            .genres-icon
+              img(src="/src/images/genres-icons/drama.svg", alt="genres-icon")    
+            h3.genres__title Drama
+          .genres-item.genres-item__historical 
+            .genres-icon
+              img(src="/src/images/genres-icons/historical.svg", alt="genres-icon")    
+            h3.genres__title Historical
+          .genres-item.genres-item__action 
+            .genres-icon
+              img(src="/src/images/genres-icons/action.svg", alt="genres-icon")    
+            h3.genres__title Action
+          .genres-item.genres-item__scifi 
+            .genres-icon
+              img(src="/src/images/genres-icons/scifi.svg", alt="genres-icon")    
+            h3.genres__title Sci-fi
+          .genres-item.genres-item__horror 
+            .genres-icon
+              img(src="/src/images/genres-icons/horror.svg", alt="genres-icon")    
+            h3.genres__title Horror
+          .genres-item.genres-item__comedy 
+            .genres-icon
+              img(src="/src/images/genres-icons/comedy.svg", alt="genres-icon")    
+            h3.genres__title Comedy
+          .genres-item.genres-item__documentary 
+            .genres-icon
+              img(src="/src/images/genres-icons/documentary.svg", alt="genres-icon")    
+            h3.genres__title Documentary
     
     include modules/footer    
